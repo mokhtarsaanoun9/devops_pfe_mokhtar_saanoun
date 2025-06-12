@@ -14,7 +14,7 @@ services:
   gestionexpertise-backend:
     image: mokhtar2000/gestionexpertise:latest  # Ton image DockerHub
     ports:
-      - "8080:8080"  # Port de l'application Spring Boot
+      - "8089:8080"  # Port de l'application Spring Boot
     depends_on:
       - mysql
     environment:
