@@ -9,7 +9,7 @@ services:
       MYSQL_USER: mokhtar
       MYSQL_PASSWORD: Ayouda123
     ports:
-      - "3307:3306"  # Port MySQL sur l'hôte
+      - "3308:3306"  # Port MySQL sur l'hôte
 
   gestionexpertise-backend:
     image: mokhtar2000/gestionexpertise:latest  # Ton image DockerHub
